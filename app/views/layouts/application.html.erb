@@ -23,12 +23,14 @@
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to "About", about_path %></li>
         </ul>
-      </div><!-- END navbar-collapse -->
+      </div>
     </div>
   </nav>
   
+<div class="container">
+  <%= yield %>
+</div>
 
-<%= yield %>
 
 </body>
 </html>
